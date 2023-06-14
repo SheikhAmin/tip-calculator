@@ -1,6 +1,6 @@
-const silders = document.querySelectorAll("input[type='range']");
-silders.forEach(function(silder){
-    silders.addEventListener("input",caculateTip);
+const sliders = document.querySelectorAll("input[type='range']");
+sliders.forEach(function(slider){
+    slider.addEventListener("input",caculateTip);
 });
 
 const billInput = document.getElementById("bill");
