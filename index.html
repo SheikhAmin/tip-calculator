@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -33,10 +34,48 @@
             </div>
         </section>
 
-        <section>
 
+        <section>
+            <div class="wrapper">
+                <label for="tip" class="lb1">
+                    tip %
+                </label>
+                <span id="tip-percent" class="val">
+                    0
+                </span>
+               </div>
+               <input type="range" min="1" id="tip" value="15">
+               <div class="wrapper">
+                <label for="no-of-people" class="lb1">
+                    No. Of People
+                </label>
+    
+                <span id="split-num" class="val">
+                    0
+                </span>
+               </div>
+               <input type="range" min="1" id="no-of-people" value="1" max="15">
         </section>
-        
+
+        <section>
+            <div class="wrapper">
+                <span class="lb1">
+                    Tip Per Person
+                </span>
+                <span id="tip-per-person" class="val">
+                   $0
+                </span>
+            </div>
+            <div class="wrapper">
+                <span class="lb1">
+                    Total Per Person
+                </span>
+                <span id="total-per-person" class="val">
+                    $
+                </span>
+            </div>
+        </section>
+
     </div>
     <script src="script.js"></script>
 </body>
