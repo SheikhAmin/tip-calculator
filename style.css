@@ -16,7 +16,7 @@ body{
 .container{
     background-color: #ffff;
     width: 450px;
-    padding: 50px,40px;
+    padding: 50px 40px;
     border-radius: 10px;
     position: absolute;
     transform: translate(-50%,-50%);
